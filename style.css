@@ -1,0 +1,103 @@
+body{
+    background-color: blue;
+}
+.triangle{
+      width: 0px;
+      height: 0px;
+      border: 20px solid green;
+      border-top: solid transparent;
+      border-right: 100px solid transparent;
+      border-left: 100px solid transparent;
+      border-bottom: 200px;
+      position: absolute;
+}
+.chrismastreeholder{
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+    
+    background-image: url("snow.gif");
+    margin: auto;
+#top{
+    left: 50px;
+    border-bottom: 100px solid green;
+border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+}
+#mid{
+    left: 50px;
+    top: 100px;
+    
+}
+#bot{
+    left: 25px;
+    top: 140px;
+    border-bottom: 150px solid green;
+    border-right: 125px transparent;
+    border-left: 125px solid transparent;
+}
+#log{
+    position: absolute;
+    width: 30px;
+    height: 70px;
+    background-color: brown;
+
+    left: 135px;
+    top: 390px;
+}
+.decoration {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+
+
+}
+#first{
+    left: 80px;
+    top: 280px;
+
+}
+.third{
+    left: 45px;
+    top: 290px;
+}
+.fourth{
+    left: 280px;
+    top: 280px;
+}
+.star {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-bottom: 30px solid gold;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+
+}
+#s1{
+    left: 140px;
+}
+#s2{
+    transform: rotate(60deg);
+    left: 165px;
+    top: 15px;
+}
+#s3{
+    transform: rotate(-60deg);
+    left: 120px;
+    top: 15px;
+}
+#s4{
+    transform: rotate(-140deg);
+    left: 130px;
+    top: 30px;
+
+}
+#s5{
+    transform: rotate(140deg);
+    left: 150px;
+    top: 30px;
+}
